@@ -9,6 +9,7 @@ terraform {
       resource_group_name  = "tpeterson080621"
       storage_account_name = "tpeterson080621"
       container_name       = "jubilant-doodle"
+      # key                  = var.backend_key
       key                  = "terraform.tfstate"
     }
 }
